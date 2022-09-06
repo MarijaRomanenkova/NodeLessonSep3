@@ -1,0 +1,19 @@
+form {
+    text-align: center;
+    background-color: rgb(203, 72, 212);
+    color: aliceblue;
+    font-size: 2rem;
+    
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto ;
+}
+
+input {
+    background-color: rgb(243, 248, 248);
+    margin: 0 auto 50px auto;
+}
+

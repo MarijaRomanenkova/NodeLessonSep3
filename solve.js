@@ -1,4 +1,4 @@
-module.exports = solve = (a, b, c) => {
+ const solve = (a, b, c) => {
 
 	const d = Math.pow(b, 2) - (4 * a * c);
 
@@ -16,11 +16,11 @@ module.exports = solve = (a, b, c) => {
 
 	} else {
 
-		return [];
+		return 'no answer';
 	}
 };
 
-
+module.exports = solve
 
 
 
